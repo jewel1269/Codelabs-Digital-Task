@@ -31,10 +31,10 @@ const Navber = () => {
       <li><a>About Us</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-4xl font-bold">D <span className="border border-gray-300 rounded-3xl p-1 text-2xl bg-yellow-400"> <AiOutlineMedicineBox /></span> C+</a>
+    <a className="btn btn-ghost text-4xl font-bold">D <span className="border border-gray-300 rounded-3xl p-1 font-inter text-2xl bg-yellow-400"> <AiOutlineMedicineBox /></span> C+</a>
   </div>
   <div className="navbar-center  hidden lg:flex">
-    <ul className="menu  menu-horizontal text-xl px-1">
+    <ul className="menu  menu-horizontal text-lg font-semibold px-1">
       <li><a>Home</a></li>
       <li><a>Services</a></li>
       <li><a>Blog</a></li>
@@ -42,7 +42,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end lg:mr-32">
-    <a className="border border-gray-300 p-2 hover:bg-orange-500 hover:shadow-2xl flex items-center rounded-lg">Appointment <GoArrowUpRight /></a>
+    <a className="border border-gray-800 p-2 text-black hover:bg-orange-500 hover:shadow-2xl flex items-center rounded-lg">Appointment <GoArrowUpRight /></a>
   </div>
 </div>
 <div >

@@ -5,11 +5,11 @@ import dollar from "../Image/pngtree-3d-dollar-coin-icon-stack-png-image_4899049
 const SectionOne = () => {
   return (
     <div className="flex lg:px-44 flex-col items-center p-6 bg-gray-100">
-      <div className="text-4xl font-bold font-inter text-black">
+      <div className="text-5xl relative top-16 font-semibold font-inter text-black">
         Comprehensive Care <br />
-        <span>for Every Patient</span>
+        <span className='lg:ml-10 font-inter'>for Every Patient</span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 mt-20 md:mt-5 lg:mt-0 md:grid-cols-3 lg:grid-cols-5 gap-6">
         <div className="flex flex-col bg-white rounded-2xl shadow-md h-80">
           <div className="text-6xl font-semibold ml-8 mt-8 text-black">90%</div>
           <div className="text-gray-700 mt-2 ml-8">
@@ -17,11 +17,11 @@ const SectionOne = () => {
           </div>
           <img
             src="https://www.tableau.com/sites/default/files/2021-06/DataGlossary_Icons_Pie%20Chart.jpg"
-            className="ml-16 mt-3"
+            className="lg:ml-16  lg:mt-3"
             alt="Pie chart"
           />
         </div>
-        <div className="flex flex-col bg-orange-50 rounded-2xl lg:mt-32 shadow-md h-48">
+        <div className="flex flex-col  bg-orange-50 rounded-2xl lg:mt-32 shadow-md h-48">
           <div className="text-4xl font-semibold ml-8 mt-8 text-black">500+</div>
           <div className="text-gray-700 mt-2 ml-8">
             Board-certified <br /> doctors

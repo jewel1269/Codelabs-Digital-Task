@@ -1,3 +1,4 @@
+import Service from "../../Service/Service";
 import DiscountDoc from "../SectionOne/DiscountDoc/DiscountDoc";
 import Faq from "../SectionOne/Faq/Faq";
 import SectionOne from "../SectionOne/SectionOne";
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
             <SectionOne/>
             <SectionTwo/>
+            <Service/>
             <TestimonialSection/>
             <Faq/>
             <DiscountDoc/>

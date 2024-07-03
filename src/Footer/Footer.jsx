@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-blue-900 text-white py-6">
       <div className="container mx-auto px-4">
-        <div className="flex justify-around items-center">
+        <div className="lg:flex justify-around items-center">
           <div>
            
             <div className="text-yellow-400 text-3xl font-bold flex mb-4">D<span className="border text-white border-gray-300 rounded-3xl p-1 text-lg bg-yellow-400"> <AiOutlineMedicineBox /></span>C+</div>
@@ -16,7 +16,7 @@ const Footer = () => {
             <p className="mb-1">Support: support@oyolloo.com</p>
             <p>(Available : 10:00am to 07:00pm)</p>
           </div>
-          <div className="flex space-x-8">
+          <div className="lg:flex space-x-8">
             <ul>
               <li><a href="#" className="hover:underline">Home</a></li>
               <li><a href="#" className="hover:underline">About Us</a></li>

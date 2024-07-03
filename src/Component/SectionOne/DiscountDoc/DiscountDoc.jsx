@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const DiscountDoc = () => {
   return (
-    <div className="p-10 bg-gray-50">
+    <div className="p-10 bg-gray-100">
         <div
       className="w-2/3  bg-cover bg-center lg:ml-80 h-[38rem] rounded-2xl relative overflow-hidden"
       style={{
@@ -12,8 +12,8 @@ const DiscountDoc = () => {
           "radial-gradient(circle, rgba(2, 0, 67, 0.8), rgba(2, 0, 67, 0.3)), url('https://media.istockphoto.com/id/1362936837/photo/medical-workers-walking-through-the-corridor.jpg?s=612x612&w=0&k=20&c=t0PCxzxi6BdJFXwZqk8qPpBmHZyK07NVO85u_bvPexc=')",
       }}
     >
-      <div className="absolute inset-0 bg-gray-900/40 bg-opacity-75 rounded-2xl flex items-center justify-center">
-        <div className=" flex justify-between lg:gap-96 text-white">
+      <div className="absolute inset-0 bg-gray-900/40 bg-opacity-75 rounded-2xl lg:flex items-center justify-center">
+        <div className=" lg:flex justify-between lg:gap-96 text-white">
           <div>
             <p className="text-4xl ">Get Your <br /> First Appointment <br /> at 50% Off!</p>
             <div className="flex gap-2">
